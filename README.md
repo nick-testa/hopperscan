@@ -61,6 +61,11 @@ One CSV per station, named by `--output`'s template (default
 `range_matrix_station_{station}.csv`). `{bus}` works too, and a template with no
 placeholder writes a single combined file.
 
+example:
+```sh
+bin/hopperscan 42dc7e75-557f-4737-9ede-4a59cd53880a --station 5 -o station_5_empty.csv 
+```
+
 ## Options
 
 | Flag | Meaning |
