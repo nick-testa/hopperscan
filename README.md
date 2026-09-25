@@ -96,3 +96,6 @@ them.
 existing notebooks keep working. Appended after them: `range_index`, `rows`,
 `cols`, `quantization_min_mm`, `quantization_max_mm`, `measured_read_hz` — all
 present in `XcuRangeSensor` but dropped by the old JSON path.
+=======
+cli tool for pulling down 0x50 range matrix data from individual gizmo stations
+
